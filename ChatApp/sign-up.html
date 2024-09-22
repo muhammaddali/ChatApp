@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id = "general" style="height: 100vh;">
+
+<div class="container-wrapper-cus">
+  <div class="container-left-cus">
+    <form id="sign-up">
+      <div class="mb-3" style="display: flex; gap: 10px;">
+        <input type="text" class="form-control-cus" id="fName" placeholder="First Name" name="fName" required>
+        <input type="text" class="form-control-cus" id="lName" placeholder="Last Name" name="lName" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control-cus" id="email" placeholder="Email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control-cus" id="psw" placeholder="Password" name="password" pattern="^(?=.*\d)[A-Za-z\d]{8,}$" minlength="8" required title="Password must be at least 8 characters long and include at least one number.">
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input-cus" type="checkbox" name="terms">
+        <label class="form-check-label-cus">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary-cus" style="width: 100%;">Sign Up</button>
+    </form>
+    <p id="content">Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
+  <div class="container-right-cus">
+    <h2>Sign-Up</h2>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
