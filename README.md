@@ -12,3 +12,4 @@ The main Chat Screen in which a sender can Edit, Delete message for me as well a
 
 
 
+<img width="1243" height="868" alt="image" src="https://github.com/user-attachments/assets/8d027f58-d851-427d-8649-365e8ed1076e" />
